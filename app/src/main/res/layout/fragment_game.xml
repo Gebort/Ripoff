@@ -25,23 +25,25 @@
 
         <ImageButton
             android:id="@+id/butPause"
-            android:layout_width="81dp"
-            android:layout_height="70dp"
+            android:layout_width="56dp"
+            android:layout_height="49dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:backgroundTint="#00FFFFFF"
-            android:src="@drawable/pause"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon_pause_pressed"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageButton
             android:id="@+id/butLeft"
-            android:layout_width="106dp"
-            android:layout_height="105dp"
+            android:layout_width="101dp"
+            android:layout_height="104dp"
             android:layout_marginStart="8dp"
             android:layout_marginBottom="8dp"
             android:backgroundTint="#00FFFFFF"
-            android:src="@drawable/left"
+            android:scaleType="centerCrop"
+            android:src="@drawable/selector_left"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
@@ -52,7 +54,8 @@
             android:layout_marginStart="8dp"
             android:layout_marginBottom="8dp"
             android:backgroundTint="#00FFFFFF"
-            android:src="@drawable/right"
+            android:scaleType="centerCrop"
+            android:src="@drawable/selector_right"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/butLeft" />
 
@@ -63,7 +66,8 @@
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
             android:backgroundTint="#00FFFFFF"
-            android:src="@drawable/up"
+            android:scaleType="centerCrop"
+            android:src="@drawable/selector_up"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
