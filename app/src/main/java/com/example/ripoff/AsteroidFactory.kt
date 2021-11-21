@@ -64,12 +64,10 @@ class AsteroidFactory(private val context: Context, private val screenX: Int, pr
         }
 
         val newAsteroid = Asteroid(
-                context,
                 bitmaps[bitmapNumber],
                 width,
                 height,
-                screenX,
-                screenY)
+        )
 
         newAsteroid.speedLin = speed
         newAsteroid.speedSpin = speed*linToSpin

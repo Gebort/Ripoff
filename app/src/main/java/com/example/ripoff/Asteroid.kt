@@ -1,16 +1,12 @@
 package com.example.ripoff
 
-import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.PointF
 import android.graphics.RectF
 
-class Asteroid(context: Context,
-               var bitmap: Bitmap,
+class Asteroid(var bitmap: Bitmap,
                val width: Float,
                val height: Float,
-               screenX: Int,
-               screenY: Int,
                 ) {
 
     var speedLin: Float = 0f

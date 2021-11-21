@@ -20,8 +20,6 @@ import java.util.logging.LogRecord
 class GameView(context: Context, private val size: Point): SurfaceView(context), Runnable {
 
     private var gameThread = Thread(this)
-    private var callback: () -> Unit = {}
-
     private var playing = false
 
     private var paused = true

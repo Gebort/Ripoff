@@ -24,12 +24,10 @@ class BulletFactory(private val context: Context, private val screenX: Int, priv
     fun createBullet(x: Float, y: Float, angle: Float){
 
         val newBullet = Bullet(
-                context,
                 bitmapBullet,
                 width,
                 height,
-                screenX,
-                screenY)
+            )
 
         newBullet.speedLin = speed
         newBullet.position.x = x
